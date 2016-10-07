@@ -21,3 +21,4 @@ http://www.google.com/123.jpeg
 
 http://somewebsrv.com/992147.jpg
 
+http://somewebsrv.com/992147.jpg.exe
