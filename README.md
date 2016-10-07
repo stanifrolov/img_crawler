@@ -1,9 +1,21 @@
 # img_crawler
 Python program to download all images from URLs given in a plain textfile
 
-# How to Use
+### Built with
+
+Python 3.5
+
+### How to use
+
+ - Download repository
+
+ - Edit main.py and provide path to textfile containing URLs
+ 
+ - run script
 
 ```
+# main.py
+
 from src import img_crawler
 
 filename = '../url.txt'
@@ -12,7 +24,7 @@ filename = '../url.txt'
 img_crawler.retrieve(filename, save_all_in_one_folder=False)
 ```
 
-# Example Console Output
+### Example console output
 
 ```
 Preparing to retrieve from 13 URLs
@@ -32,7 +44,7 @@ FAIL: Not reachable URL: http://www.google.com/123.jpeg
 Download complete: 4 Successes and 7 Fails
 ```
 
-#Task:
+### Task
 Given a plaintext file containing URLs, one per line, e.g.:
 
 http://mywebserver.com/images/271947.jpg
